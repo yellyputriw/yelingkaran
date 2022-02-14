@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #f1f3f6;
+}
+
+h1 {
+  color: #373a37;
+  font-size: 29px;
+  margin: 32px auto 10px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.image {
+  display: block;
+  margin: 8px auto;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.radius {
+  width: 325px;
+  height: 42px;
+  font-size: 16px;
+  border: none;
+  background-color: #f1f3f6;
+  padding: 8px;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  color: #3a4e89;
+  font-weight: 700;
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px rgba(55, 84, 170, 0.1);
+}
+
+.radius::-webkit-input-placeholder {
+  color: #3a4e8980;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.my-btn {
+  background-color: #3a4e89;
+  padding: 7px 28px;
+  margin-top: 1rem;
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  border-radius: 13px;
+}
+
+.result {
+  margin: 16px auto;
+  width: fit-content;
+}
+
+.result .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3a4e89;
+}
+
+.card {
+  width: 325px;
+  background-color: #f1f3f6;
+  padding: 1rem;
+  margin-top: 16px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 1),
+    5px 5px 10px rgba(55, 84, 170, 0.1);
+}
+
+.card p {
+  color: #3a4e89;
+}
+
+.content {
+  font-weight: 700;
+  border-bottom: 1px solid #3a4e89;
+}
