@@ -63,11 +63,14 @@ const Home: NextPage = () => {
             </p>
             <p>
               Hasilnya adalah{" "}
-              {r % 7 === 0
-                ? parse("<span><sup>22</sup>&frasl;<sub>7</sub></span>")
-                : parse("<span>3.14</span>")}{" "}
-              x <span className="r">7</span>
-              <sup>2</sup> = <span className={styles.content}>0</span>
+              <span>
+                {/* {r % 7 === 0
+                  ? parse("<><sup>22</sup>&frasl;<sub>7</sub></>")
+                  : parse("<>3.14</>")}{" "} */}
+                7
+              </span>
+              x <span className="r">{r}</span>={" "}
+              <span className={styles.content}>0</span>
             </p>
           </div>
         </div>
